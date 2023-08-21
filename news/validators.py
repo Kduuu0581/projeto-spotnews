@@ -15,4 +15,4 @@ def validate_date(value):
 
 def validate_title(value):
     if not len(str(value).split()) > 1:
-        raise ValidationError("Este campo deve conter pelo menos 2 palavras.")
+        raise ValidationError("O título deve conter pelo menos 2 palavras.")
