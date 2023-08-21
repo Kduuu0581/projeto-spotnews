@@ -8,9 +8,11 @@ def validate_date(value):
 
         return True
     except ValueError:
-        raise ValidationError("Invalid date format, should be YYYY-MM-DD")
+        raise ValidationError(
+            "Use o formato AAAA-MM-DD e uma data igual ou anterior a hoje."
+        )
 
 
 def validate_title(value):
     if not len(str(value).split()) > 1:
-        raise ValidationError("Title should be more than one word")
+        raise ValidationError("Este campo deve conter pelo menos 2 palavras.")
