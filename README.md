@@ -1,13 +1,17 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Boas-vindas ao repositório do Spotnews
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+<details>
+  <summary><strong>👨‍💻 O que foi desenvolvido</strong></summary><br />
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+ Este projeto tem como principal objetivo fazer consultas em notícias sobre tecnologia.
+
+  As notícias podem ser obtidas através da raspagem do [_blog da Trybe_](https://blog.betrybe.com).
+
+  <strong>🚵 Habilidades trabalhadas:</strong>
+  <ul>
+    <li>Escrever aplicações usando Django e Django Rest Framework</li>
+    <li>Desenvolver uma aplicação que usa a arquitetura Model-View-Template</li>
+    <li>Trabalhar com banco de dados MYSQL</li>
+  </ul>
+
+</details>
